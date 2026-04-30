@@ -1,28 +1,33 @@
 ```
-# Android build artifacts
+# Android build outputs
 *.apk
 *.aar
-*.dex
-*.so
-
-# Android dependency directories
+*.aab
+*.ap_
 app/build/
 build/
+
+# Android studio files
 .gradle/
-
-# Android local configuration
-local.properties
-
-# IDE files
 .idea/
 *.iml
 *.iws
-.vscode/
+out/
 
-# Log files
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
 *.log
 
-# Temp files
-*.tmp
-*~
+# Android generated files
+gen/
+bin/
+gen-external-apklibs/
+lint/intermediates/
+lint/generated/
+lint/baseline/
+captures/
+debug/
+release/
 ```
