@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Кликер</string>
-    <string name="score">Очки: %d</string>
-    <string name="click_power">Сила клика: %d</string>
-    <string name="auto_clickers">Авто-кликеры: %d</string>
-    <string name="upgrade_click">Улучшить клик (+1)</string>
-    <string name="buy_auto_clicker">Купить авто-кликер</string>
-    <string name="cost">Цена: %d</string>
+    <string name="score_label">Счёт: %d</string>
+    <string name="click_power_label">Сила клика: %d</string>
+    <string name="auto_clickers_label">Авто-кликеры: %d</string>
+    <string name="upgrade_click_button">Улучшить клик (%d)</string>
+    <string name="buy_auto_clicker_button">Купить авто-кликер (%d)</string>
 </resources>
